@@ -1,0 +1,16 @@
+deployment:
+
+    qa:
+      branch: master
+      commands:
+        - echo "QA DEPLOY!"
+
+    int:
+      branch: master
+      commands:
+        - echo "INT DEPLOY!"
+
+    production:
+      branch: master
+      commands:
+        - echo "PRODUCTION DEPLOY!"
