@@ -11,6 +11,6 @@ jobs:
       - run: ./add_file.sh /home/circleci/cached
       - run: ls -lA /home/circleci/cached
       - save_cache:
-          key: cache_key_{{ epoch }}
+          key: cache_key-{{ epoch }}
           paths:
             - /home/circleci/cached
