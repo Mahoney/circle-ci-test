@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /home/circleci
+    working_directory: /home/circleci/test
     docker:
       - image: circleci/node:6.10
     steps:
