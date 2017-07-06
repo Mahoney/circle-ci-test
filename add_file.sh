@@ -5,4 +5,4 @@ set -exuo pipefail
 dir=$1
 
 mkdir -p $dir
-echo "Any old data $RANDOM" > $dir/$RANDOM
+echo "Any old data again $RANDOM" > $dir/$RANDOM
