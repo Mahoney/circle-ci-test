@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -exuo pipefail
 
 dir=$1
 
 mkdir -p $dir
-head /dev/random > $dir/$RANDOM
+echo "Any old data $RANDOM" > $dir/$RANDOM
