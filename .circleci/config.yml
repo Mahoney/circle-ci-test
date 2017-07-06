@@ -8,7 +8,7 @@ jobs:
       - checkout
       - restore_cache:
           key: cache_key
-      - run: ./add_files /home/circleci/cached
+      - run: ./add_file.sh /home/circleci/cached
       - run: ls -lA /home/circleci/cached
       - save_cache:
           key: cache_key
